@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+
+class Produtos extends Controller
+{
+    public function produtos(){
+        return view('site.produtos');
+    }
+}
